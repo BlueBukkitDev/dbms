@@ -58,6 +58,7 @@ fn send_db_select_help_msg() {
     println!("db select {} - the name of the parent folder containing generated db files", "<name-of-database>".yellow());
 }
 
+//This fn is here for future use
 fn _create_folder(path: &str) { 
     match fs::create_dir(path) {
         Ok(_) => println!("Directory created successfully"),

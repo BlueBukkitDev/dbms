@@ -1,0 +1,13 @@
+Database names and all dbms commands are case-insensitive to prevent duplication issues. 
+Queries need to be specific. Minimum requirement is the tertiary tag. 
+"find" command runs a query to find entries, not data from the entries. 
+"read" reads data from a queried entry.
+"get" gets files or other entries from pointer addresses within the entry.  
+
+db select HerpaDerp
+find * of <p-tag> will yield a list of secondary tags for that primary tag.
+find * of <s-tag> will yield a list of tertiary tags for that secondary tag.
+find * of <t-tag> will yield a list of entry IDs containing that tertiary tag. 
+find * of <t-tag> where <property> = <value> will yield a list of entry IDs matching these criteria.
+read <property> of <entry ID> will yield the value of that property
+read <property> of (find * of <t-tag> where <property> = <value>)[0] will yield the value of the property of the selected entry
