@@ -1,4 +1,5 @@
 male
 bald{
 	shaved
+	cancer
 }

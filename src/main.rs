@@ -1,5 +1,8 @@
 use std::fs;
 use colored::Colorize;
+use crate::help_msg::*;
+
+mod help_msg;
 
 fn main(){
     send_base_help_msg();
@@ -9,53 +12,63 @@ fn main(){
 fn operate(){
     let mut input = String::new();
     std::io::stdin().read_line(&mut input).expect("Did not enter a correct string");
-    let cmd = input.trim();
-    let args: Vec<&str> = cmd.split_whitespace().collect();
-    if args[0].to_lowercase() == "help" {
-        process_help(&args);
-        operate();
-    }else if cmd.to_lowercase() == "stop" {
-        println!("{}", "Bye!".green());
-    }else {
-        println!("Invalid Input! You typed {}, but options are only 'Go' and 'Stop'", cmd.red());
-        operate();
+    let pieces: Vec<&str> = input.trim().split_whitespace().collect();
+    if process_command(pieces[0], &pieces[1..]) {
+        return;
     }
+    operate();
 }
 
+/**
+ Takes in a command and an array of subcommands. Redirects to other functions depending on the series. 
+
+ Returns true if the program should close. 
+ */
+fn process_command(cmd: &str, args: &[&str]) -> bool {
+    if cmd == "stop" || cmd == "end" || cmd == "quit" || cmd == "close" || cmd == "die" {
+        return true;
+    }else if cmd == "help" {
+        process_help(&args);
+    }else if cmd == "db" {
+
+    }else if cmd == "find" {
+
+    }else if cmd == "read" {
+
+    }else if cmd == "get" {
+        
+    }else if cmd == "write" {
+        
+    }else if cmd == "put" {
+        
+    }else {
+        send_unknown_cmd(cmd);
+    }
+
+    return false;
+}
+
+fn send_unknown_cmd(cmd: &str) {
+    println!("{} you wrote {}", "Unknown command!".red(), cmd.truecolor(241, 194, 50));
+}
+
+/**
+ Processes help commands based on user input. 
+ */
 fn process_help(args: &[&str]) {
-    if args.len() == 1 {
+    if args.len() == 0 {
         send_base_help_msg();
-    }else if args.len() == 2 {
-        if args[1].to_lowercase() == "db" {
+    }else if args.len() == 1 {
+        if args[0].to_lowercase() == "db" {
             send_db_help_msg();
         }
-    }else if args.len() == 3 {
-        if args[1].to_lowercase() == "db" {
-            if args[2].to_lowercase() == "select" {
+    }else if args.len() == 2 {
+        if args[0].to_lowercase() == "db" {
+            if args[1].to_lowercase() == "select" {
                 send_db_select_help_msg();
             }
         }
     }
-}
-
-fn send_base_help_msg() {
-    println!("DBMS {} help", "command".cyan());
-    println!("{} - used to provide help for a given command", "help".yellow());
-    println!("{} - used to interact with a database and it's properties", "db".yellow());
-    println!("{} - used to search for an entry in a selected database", "get".yellow());
-    println!("{} - used to input a new entry into a selected database", "put".yellow());
-}
-
-fn send_db_help_msg() {
-    println!("DBMS {} help", "db".cyan());
-    println!("db {} - used to create a new database", "create".yellow());
-    println!("db {} - used to delete an existing database", "destroy".yellow());
-    println!("db {} - used to select a database for future queries", "select <name>".yellow());
-}
-
-fn send_db_select_help_msg() {
-    println!("DBMS {} help", "db select".cyan());
-    println!("db select {} - the name of the parent folder containing generated db files", "<name-of-database>".yellow());
 }
 
 //This fn is here for future use
