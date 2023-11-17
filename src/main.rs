@@ -1,5 +1,4 @@
 use std::fs;
-use colored::Colorize;
 use crate::help_msg::*;
 
 mod help_msg;
@@ -42,33 +41,11 @@ fn process_command(cmd: &str, args: &[&str]) -> bool {
     }else if cmd == "put" {
         
     }else {
-        send_unknown_cmd(cmd);
+        let options = ["stop", "help", "db", "find", "read", "get", "write", "put"];
+        send_unknown_cmd(cmd, args, &options);
     }
 
     return false;
-}
-
-fn send_unknown_cmd(cmd: &str) {
-    println!("{} you wrote {}", "Unknown command!".red(), cmd.truecolor(241, 194, 50));
-}
-
-/**
- Processes help commands based on user input. 
- */
-fn process_help(args: &[&str]) {
-    if args.len() == 0 {
-        send_base_help_msg();
-    }else if args.len() == 1 {
-        if args[0].to_lowercase() == "db" {
-            send_db_help_msg();
-        }
-    }else if args.len() == 2 {
-        if args[0].to_lowercase() == "db" {
-            if args[1].to_lowercase() == "select" {
-                send_db_select_help_msg();
-            }
-        }
-    }
 }
 
 //This fn is here for future use
