@@ -920,7 +920,7 @@ object:
     - instrument: # an instrument requires user input to function; typically handheld
       - tool:
       - weapon:
-    device: # a device can operate with or without user input
+    - device: # a device can operate with or without user input
       - trade: # any device that belongs to any trade
         - electrical:
           - ele_material: # materials are not neccessarily whole objects, but are typically used by-the-qty
@@ -929,17 +929,18 @@ object:
           - ele_component: # components are whole objects that generally are paired with other components to form a system
             - oc_protection:
               - breaker:
-                - Eaton:
-                  - 1P_20A
-                  - 2P_20A
-                  - 3P_20A
-                - Murray:
-                - Cutler-Hammer:
-                - GE:
-                - Siemens:
+                - 1P_20A
+                - 2P_20A
+                - 3P_20A
               - fuse:
             - manual_switch:
             - auto_switch:
+    - brand:
+      - electrical:
+        - Eaton
+        - General Electric
+        - Cutler-Hammer
+        - Siemens
   - cultivated # an object that was grown, such as a food
   - degradated # an object that was broken from an original, such as a rock
   - generated # an object that was formed due to natural processes
