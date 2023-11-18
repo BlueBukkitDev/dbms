@@ -916,4 +916,31 @@ technology:
 event:
 creature:
 object:
+  - fabricated: # an object that was assembled or created, such as a tool
+    - instrument: # an instrument requires user input to function; typically handheld
+      - tool:
+      - weapon:
+    device: # a device can operate with or without user input
+      - trade: # any device that belongs to any trade
+        - electrical:
+          - ele_material: # materials are not neccessarily whole objects, but are typically used by-the-qty
+            - conductor:
+            - conduit:
+          - ele_component: # components are whole objects that generally are paired with other components to form a system
+            - oc_protection:
+              - breaker:
+                - Eaton:
+                  - 1P_20A
+                  - 2P_20A
+                  - 3P_20A
+                - Murray:
+                - Cutler-Hammer:
+                - GE:
+                - Siemens:
+              - fuse:
+            - manual_switch:
+            - auto_switch:
+  - cultivated # an object that was grown, such as a food
+  - degradated # an object that was broken from an original, such as a rock
+  - generated # an object that was formed due to natural processes
 structure:
