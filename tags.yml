@@ -18,7 +18,7 @@ person:
     - Millennials # – born 1981-1996
     - Generation Z # – born 1996-2012
     - Gen Alpha # – born 2013 – 2025
-location:
+location: # check this out https://www.back4app.com/database/back4app/list-of-all-continents-countries-cities not only are locations listed, but shape, language, cities, and more
   - Africa:
     - Algeria: 
       - Adrar
