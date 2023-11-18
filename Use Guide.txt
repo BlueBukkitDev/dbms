@@ -1,3 +1,8 @@
+The Tags system is meant to be fully configurable, but set up by default to be non-overlapping and easily understood. 
+The `tags.yml` file lists all tags and how they will be used to set up the database. 
+!!!WARNING!!! Deleting primary tags can cause data in the db to become inaccessible. 
+Do not delete primary tags unless you know what you are doing. 
+
 Database names and all dbms commands are case-insensitive to prevent duplication issues. 
 Queries need to be specific. Minimum requirement is the tertiary tag. 
 "find" command runs a query to find entries, not data from the entries. 
@@ -13,3 +18,11 @@ find * of <t-tag> will yield a list of entry IDs containing that tertiary tag.
 find * of <t-tag> where <property> = <value> will yield a list of entry IDs matching these criteria.
 read <property> of <entry ID> will yield the value of that property
 read <property> of (find * of <t-tag> where <property> = <value>)[0] will yield the value of the property of the selected entry
+
+find 6 of <s-tag, t-tag> will yield a list of up to 6 entries that have the s-tag and t-tag 
+
+db create Materials will create a database called Materials with all default tags
+db create Materials -c will create a database called Materials without any default tags
+
+tag create <primary/secondary/etc/new_tag_name> will create a new quaternary tag under the tertiary tag etc, under secondary, under primary
+tag delete <tag_name> will delete an existing tag. New items will no longer be able to use this tag, but old items can still be found by it

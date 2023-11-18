@@ -1,0 +1,919 @@
+person:
+  - Race:
+    - American Indian or Alaska Native
+    - Asian
+    - Black or African American
+    - Native Hawaiian or Other Pacific Islander
+    - White
+    - Hispanic or Latino
+  - Gender:
+    - Male
+    - Female
+    - Unisex
+  - Generation:
+    - The Greatest Generation # – born 1901-1927
+    - The Silent Generation # – born 1928-1945
+    - The Baby Boomer Generation # – born 1946-1964
+    - Generation X # – born 1965-1980
+    - Millennials # – born 1981-1996
+    - Generation Z # – born 1996-2012
+    - Gen Alpha # – born 2013 – 2025
+location:
+  - Africa:
+    - Algeria: 
+      - Adrar
+      - Aïn Defla
+      - Aïn Témouchent
+      - Algiers
+      - Annaba
+      - Batna
+      - Béchar
+      - Béjaïa
+      - Biskra
+      - Blida
+      - Bordj Bou Arreridj
+      - Bouïra
+      - Boumerdès
+      - Chlef
+      - Constantine
+      - Djelfa
+      - El Bayadh
+      - El Oued
+      - El Tarf
+      - Ghardaïa
+      - Guelma
+      - Illizi
+      - Jijel
+      - Khenchela
+      - Laghouat
+      - Médéa
+      - Mila
+      - Mostaganem
+      - M'Sila
+      - Naâma
+      - Oran
+      - Ouargla
+      - Oum El Bouaghi
+      - Relizane
+      - Saïda
+      - Sétif
+      - Sidi Bel Abbès
+      - Skikda
+      - Souk Ahras
+      - Tamanrasset
+      - Tébessa
+      - Tiaret
+      - Tindouf
+      - Tipaza
+      - Tissemsilt
+      - Tizi Ouzou
+      - Tlemcen
+      - Trarza
+      - Ain Salah
+      - Ain Guezzam
+      - Djamaa
+      - El Menia
+      - In Salah
+      - In Guezzam
+      - Touggourt
+      - Djanet
+      - El M'Ghair
+      - El Meniaa
+    - Angola: 
+      - Bengo
+      - Benguela
+      - Bié
+      - Cabinda
+      - Cuando Cubango
+      - Cuanza Norte
+      - Cuanza Sul
+      - Cunene
+      - Huambo
+      - Huíla
+      - Luanda
+      - Lunda Norte
+      - Lunda Sul
+      - Malanje
+      - Moxico
+      - Namibe
+      - Uíge
+      - Zaire
+    - Benin:
+      - Alibori
+      - Atakora
+      - Atlantique
+      - Borgou
+      - Collines
+      - Donga
+      - Kouffo
+      - Littoral
+      - Mono
+      - Ouémé
+      - Plateau
+      - Zou
+    - Botswana:
+      - Central
+      - Chobe
+      - Francistown
+      - Gaborone
+      - Ghanzi
+      - Jwaneng
+      - Kgalagadi
+      - Kgatleng
+      - Kweneng
+      - Lobatse
+      - North-East
+      - North-West
+      - Selibe Phikwe
+      - South-East
+      - Southern
+      - Sowa Town
+    - Burkina Faso:
+      - Boucle du Mouhoun
+      - Cascades
+      - Centre
+      - Centre-Est
+      - Centre-Nord
+      - Centre-Ouest
+      - Centre-Sud
+      - Est
+      - Hauts-Bassins
+      - Nord
+      - Plateau-Central
+      - Sahel
+      - Sud-Ouest
+    - Burundi:
+      - Bubanza
+      - Bujumbura Mairie
+      - Bujumbura Rural
+      - Bururi
+      - Cankuzo
+      - Cibitoke
+      - Gitega
+      - Karuzi
+      - Kayanza
+      - Kirundo
+      - Makamba
+      - Muramvya
+      - Muyinga
+      - Mwaro
+      - Ngozi
+      - Rumonge
+      - Rutana
+      - Ruyigi
+    - Cabo Verde (Cape Verde):
+      - Boa Vista
+      - Brava
+      - Maio
+      - Mosteiros
+      - Paúl
+      - Porto Novo
+      - Praia
+      - Ribeira Brava
+      - Ribeira Grande
+      - Ribeira Grande de Santiago
+      - Sal
+      - Santa Catarina
+      - Santa Catarina do Fogo
+      - Santa Cruz
+      - São Domingos
+      - São Filipe
+      - São Lourenço dos Órgãos
+      - São Miguel
+      - São Salvador do Mundo
+      - São Vicente
+      - Tarrafal
+      - Tarrafal de São Nicolau
+    - Cameroon:
+      - Adamawa
+      - Centre
+      - East
+      - Far North
+      - Littoral
+      - North
+      - North-West
+      - South
+      - South-West
+      - West
+    - Central African Republic:
+      - Bamingui-Bangoran
+      - Bangui
+      - Basse-Kotto
+      - Haute-Kotto
+      - Haut-Mbomou
+      - Kémo
+      - Lobaye
+      - Mambéré-Kadéï
+      - Mbomou
+      - Nana-Grébizi
+      - Nana-Mambéré
+      - Ombella-M'Poko
+      - Ouaka
+      - Ouham
+      - Ouham-Pendé
+      - Sangha-Mbaéré
+      - Vakaga
+    - Chad:
+      - Batha
+      - Borkou
+      - Chari-Baguirmi
+      - Ennedi-Est
+      - Ennedi-Ouest
+      - Guéra
+      - Hadjer-Lamis
+      - Kanem
+      - Lac
+      - Logone Occidental
+      - Logone Oriental
+      - Mandoul
+      - Mayo-Kebbi Est
+      - Mayo-Kebbi Ouest
+      - Moyen-Chari
+      - Ouaddaï
+      - Salamat
+      - Sila
+      - Tandjilé
+      - Tibesti
+      - Wadi Fira
+    - Comoros:
+      - Anjouan (Ndzuwani)
+      - Grande Comore (Ngazidja)
+      - Mohéli (Mwali)
+    - Republic of the Congo (Congo-Brazzaville):
+      - Bouenza
+      - Brazzaville
+      - Cuvette
+      - Cuvette-Ouest
+      - Kouilou
+      - Lékoumou
+      - Likouala
+      - Niari
+      - Plateaux
+      - Pointe-Noire
+      - Pool
+      - Sangha
+    - Democratic Republic of the Congo (Congo-Kinshasa):
+      - Bas-Uele
+      - Haut-Katanga
+      - Haut-Lomami
+      - Haut-Uele
+      - Ituri
+      - Kasaï
+      - Kasaï-Central
+      - Kasaï-Oriental
+      - Kinshasa
+      - Kwango
+      - Kwilu
+      - Lomami
+      - Lualaba
+      - Mai-Ndombe
+      - Maniema
+      - Mongala
+      - Nord-Kivu
+      - Nord-Ubangi
+      - Sankuru
+      - Sud-Kivu
+      - Sud-Ubangi
+      - Tanganyika
+      - Tshopo
+      - Tshuapa
+    - Djibouti:
+      - Ali Sabieh
+      - Arta
+      - Dikhil
+      - Djibouti
+      - Obock
+      - Tadjourah
+    - Egypt:
+      - Alexandria
+      - Aswan
+      - Asyut
+      - Beheira
+      - Beni Suef
+      - Cairo
+      - Dakahlia
+      - Damietta
+      - Faiyum
+      - Gharbia
+      - Giza
+      - Ismailia
+      - Kafr El Sheikh
+      - Luxor
+      - Matruh
+      - Minya
+      - Monufia
+      - New Valley
+      - North Sinai
+      - Port Said
+      - Qalyubia
+      - Qena
+      - Red Sea
+      - Sharqia
+      - Sohag
+      - South Sinai
+      - Suez
+    - Equatorial Guinea:
+      - Annobón
+      - Bioko Norte
+      - Bioko Sur
+      - Centro Sur
+      - Kié-Ntem
+      - Litoral
+      - Wele-Nzas
+    - Eritrea:
+      - Anseba
+      - Central (Maekel)
+      - Gash-Barka
+      - Northern Red Sea (Semenawi Keih Bahri)
+      - Southern (Debub)
+      - Southern Red Sea (Debubawi Keih Bahri)
+    - Eswatini:
+      - Hhohho
+      - Lubombo
+      - Manzini
+      - Shiselweni
+    - Ethiopia:
+      - Addis Ababa
+      - Afar
+      - Amhara
+      - Benishangul-Gumuz
+      - Dire Dawa
+      - Gambela
+      - Harari
+      - Oromia
+      - Sidama
+      - Somali
+      - Southern Nations, Nationalities, and Peoples' Region (SNNPR)
+      - Tigray
+    - Gabon:
+      - Estuaire
+      - Haut-Ogooué
+      - Moyen-Ogooué
+      - Ngounié
+      - Nyanga
+      - Ogooué-Ivindo
+      - Ogooué-Lolo
+      - Ogooué-Maritime
+      - Woleu-Ntem
+    - Gambia:
+      - Banjul
+      - Central River
+      - Lower River
+      - North Bank
+      - Upper River
+      - West Coast
+    - Ghana:
+      - Ahafo
+      - Ashanti
+      - Bono
+      - Bono East
+      - Central
+      - Eastern
+      - Greater Accra
+      - North East
+      - Northern
+      - Oti
+      - Savannah
+      - Upper East
+      - Upper West
+      - Volta
+      - Western
+      - Western North
+    - Guinea:
+      - Boké
+      - Conakry
+      - Faranah
+      - Kankan
+      - Kindia
+      - Labé
+      - Mamou
+      - Nzérékoré
+    - Guinea-Bissau:
+      - Bafatá
+      - Biombo
+      - Bissau (Autonomous Sector)
+      - Bolama
+      - Cacheu
+      - Gabú
+      - Oio
+      - Quinara
+      - Tombali
+    - Ivory Coast (Côte d'Ivoire):
+      - Abidjan (Autonomous District)
+      - Bas-Sassandra
+      - Comoé
+      - Denguélé
+      - Gôh-Djiboua
+      - Lacs
+      - Lagunes
+      - Montagnes
+      - Sassandra-Marahoué
+      - Savanes
+      - Vallée du Bandama
+      - Woroba
+      - Yamoussoukro (Autonomous District)
+      - Zanzan
+    - Kenya:
+      - Baringo
+      - Bomet
+      - Bungoma
+      - Busia
+      - Elgeyo-Marakwet
+      - Embu
+      - Garissa
+      - Homa Bay
+      - Isiolo
+      - Kajiado
+      - Kakamega
+      - Kericho
+      - Kiambu
+      - Kilifi
+      - Kirinyaga
+      - Kisii
+      - Kisumu
+      - Kitui
+      - Kwale
+      - Laikipia
+      - Lamu
+      - Machakos
+      - Makueni
+      - Mandera
+      - Marsabit
+      - Meru
+      - Migori
+      - Mombasa
+      - Murang'a
+      - Nairobi
+      - Nakuru
+      - Nandi
+      - Narok
+      - Nyamira
+      - Nyandarua
+      - Nyeri
+      - Samburu
+      - Siaya
+      - Taita-Taveta
+      - Tana River
+      - Tharaka-Nithi
+      - Trans Nzoia
+      - Turkana
+      - Uasin Gishu
+      - Vihiga
+      - Wajir
+      - West Pokot
+    - Lesotho:
+      - Berea
+      - Butha-Buthe
+      - Leribe
+      - Mafeteng
+      - Maseru
+      - Mohale's Hoek
+      - Mokhotlong
+      - Qacha's Nek
+      - Quthing
+      - Thaba-Tseka
+    - Liberia:
+      - Bomi
+      - Bong
+      - Gbarpolu
+      - Grand Bassa
+      - Grand Cape Mount
+      - Grand Gedeh
+      - Grand Kru
+      - Lofa
+      - Margibi
+      - Maryland
+      - Montserrado
+      - Nimba
+      - River Cess
+      - River Gee
+      - Sinoe
+    - Libya:
+      - Al Butnan
+      - Al Jabal al Akhdar
+      - Al Jabal al Gharbi
+      - Al Jafara
+      - Al Jufrah
+      - Al Kufrah
+      - Al Marj
+      - Al Marqab
+      - Al Wahat
+      - An Nuqat al Khams
+      - Az Zawiyah
+      - Benghazi
+      - Derna
+      - Ghat
+      - Misrata
+      - Murqub
+      - Nalut
+      - Sabha
+      - Surt
+      - Tripoli
+      - Wadi al Hayaa
+      - Wadi al Shatii
+    - Madagascar:
+      - Alaotra-Mangoro
+      - Amoron'i Mania
+      - Analamanga
+      - Analanjirofo
+      - Androy
+      - Anosy
+      - Atsimo-Andrefana
+      - Atsimo-Atsinanana
+      - Atsinanana
+      - Betsiboka
+      - Boeny
+      - Bongolava
+      - Diana
+      - Haute Matsiatra
+      - Ihorombe
+      - Itasy
+      - Melaky
+      - Menabe
+      - Sava
+      - Sofia
+      - Vakinankaratra
+      - Vatovavy-Fitovinany
+    - Malawi:
+      - Balaka
+      - Blantyre
+      - Chikwawa
+      - Chiradzulu
+      - Chitipa
+      - Dedza
+      - Dowa
+      - Karonga
+      - Kasungu
+      - Likoma
+      - Lilongwe
+      - Machinga
+      - Mangochi
+      - Mchinji
+      - Mulanje
+      - Mwanza
+      - Mzimba
+      - Neno
+      - Nkhata Bay
+      - Nkhotakota
+      - Nsanje
+      - Ntcheu
+      - Ntchisi
+      - Phalombe
+      - Rumphi
+      - Salima
+      - Thyolo
+      - Zomba
+    - Mali:
+      - Bamako
+      - Gao
+      - Kayes
+      - Kidal
+      - Koulikoro
+      - Ménaka
+      - Mopti
+      - Ségou
+      - Sikasso
+      - Taoudénit
+      - Tombouctou
+    - Mauritania:
+      - Adrar
+      - Assaba
+      - Brakna
+      - Dakhlet Nouadhibou
+      - Gorgol
+      - Guidimaka
+      - Hodh Ech Chargui
+      - Hodh El Gharbi
+      - Inchiri
+      - Nouakchott Nord
+      - Nouakchott Ouest
+      - Nouakchott Sud
+      - Tagant
+      - Tiris Zemmour
+      - Trarza
+    - Mauritius:
+      - Black River (Rivière Noire)
+      - Flacq
+      - Grand Port
+      - Moka
+      - Pamplemousses
+      - Plaines Wilhems
+      - Port Louis
+      - Rivière du Rempart
+      - Rodrigues (Autonomous Region)
+      - Savanne
+    - Morocco:
+      - Béni Mellal-Khénifra
+      - Casablanca-Settat
+      - Dakhla-Oued Ed-Dahab
+      - Drâa-Tafilalet
+      - Fès-Meknès
+      - Guelmim-Oued Noun
+      - Laâyoune-Sakia El Hamra
+      - Marrakech-Safi
+      - Oriental
+      - Rabat-Salé-Kénitra
+      - Souss-Massa
+      - Tanger-Tétouan-Al Hoceïma
+    - Mozambique:
+      - Cabo Delgado
+      - Gaza
+      - Inhambane
+      - Manica
+      - Maputo (City)
+      - Maputo Province
+      - Nampula
+      - Niassa
+      - Sofala
+      - Tete
+      - Zambezia
+    - Namibia:
+      - Erongo
+      - Hardap
+      - ǁKaras
+      - Kavango East
+      - Kavango West
+      - Khomas
+      - Kunene
+      - Ohangwena
+      - Omaheke
+      - Omusati
+      - Oshana
+      - Oshikoto
+      - Otjozondjupa
+      - Zambezi
+    - Niger:
+      - Agadez
+      - Diffa
+      - Dosso
+      - Maradi
+      - Niamey
+      - Tahoua
+      - Tillabéri
+      - Zinder
+    - Nigeria:
+      - Abia
+      - Adamawa
+      - Akwa Ibom
+      - Anambra
+      - Bauchi
+      - Bayelsa
+      - Benue
+      - Borno
+      - Cross River
+      - Delta
+      - Ebonyi
+      - Edo
+      - Ekiti
+      - Enugu
+      - Federal Capital Territory
+      - Gombe
+      - Imo
+      - Jigawa
+      - Kaduna
+      - Kano
+      - Katsina
+      - Kebbi
+      - Kogi
+      - Kwara
+      - Lagos
+      - Nasarawa
+      - Niger
+      - Ogun
+      - Ondo
+      - Osun
+      - Oyo
+      - Plateau
+      - Rivers
+      - Sokoto
+      - Taraba
+      - Yobe
+      - Zamfara
+    - Rwanda:
+      - Eastern Province
+      - Kigali
+      - Northern Province
+      - Southern Province
+      - Western Province
+    - Sao Tome and Principe:
+      - Príncipe
+      - São Tomé
+    - Senegal:
+      - Dakar
+      - Diourbel
+      - Fatick
+      - Kaffrine
+      - Kaolack
+      - Kédougou
+      - Kolda
+      - Louga
+      - Matam
+      - Saint-Louis
+      - Sédhiou
+      - Tambacounda
+      - Thiès
+      - Ziguinchor
+    - Seychelles:
+      - Anse Boileau
+      - Anse Royale
+      - Anse-aux-Pins
+      - Au Cap
+      - Baie Lazare
+      - Baie Sainte Anne
+      - Beau Vallon
+      - Bel Air
+      - Bel Ombre
+      - Cascade
+      - Glacis
+      - Grand'Anse Mahé
+      - Grand'Anse Praslin
+      - La Digue and Inner Islands
+      - La Rivière Anglaise
+      - Les Mamelles
+      - Mont Buxton
+      - Mont Fleuri
+      - Plaisance
+      - Pointe La Rue
+      - Port Glaud
+      - Roche Caiman
+      - Saint Louis
+      - Takamaka
+    - Sierra Leone:
+      - Eastern Province
+      - Northern Province
+      - North Western Province
+      - Southern Province
+      - Western Area
+    - Somalia:
+      - Awdal
+      - Bakool
+      - Banaadir
+      - Bari
+      - Bay
+      - Galguduud
+      - Gedo
+      - Hiran
+      - Lower Juba
+      - Lower Shabelle
+      - Middle Juba
+      - Middle Shabelle
+      - Mudug
+      - Nugal
+      - Sanaag
+      - Sool
+      - Togdheer
+      - Woqooyi Galbeed
+    - South Africa:
+      - Eastern Cape
+      - Free State
+      - Gauteng
+      - KwaZulu-Natal
+      - Limpopo
+      - Mpumalanga
+      - North West
+      - Northern Cape
+      - Western Cape
+    - South Sudan:
+      - Central Equatoria
+      - Eastern Equatoria
+      - Jonglei
+      - Lakes
+      - Northern Bahr el Ghazal
+      - Unity
+      - Upper Nile
+      - Warrap
+      - Western Bahr el Ghazal
+      - Western Equatoria
+    - Sudan:
+      - Blue Nile
+      - Central Darfur
+      - East Darfur
+      - Gezira
+      - Kassala
+      - Khartoum
+      - North Darfur
+      - North Kordofan
+      - Northern
+      - Red Sea
+      - River Nile
+      - Sennar
+      - South Darfur
+      - South Kordofan
+      - West Darfur
+      - West Kordofan
+      - White Nile
+    - Tanzania:
+      - Arusha
+      - Dar es Salaam
+      - Dodoma
+      - Geita
+      - Iringa
+      - Kagera
+      - Katavi
+      - Kigoma
+      - Kilimanjaro
+      - Lindi
+      - Manyara
+      - Mara
+      - Mbeya
+      - Morogoro
+      - Mtwara
+      - Mwanza
+      - Njombe
+      - Pemba North
+      - Pemba South
+      - Pwani
+      - Rukwa
+      - Ruvuma
+      - Shinyanga
+      - Simiyu
+      - Singida
+      - Songwe
+      - Tabora
+      - Tanga
+      - Zanzibar Central/South
+      - Zanzibar North
+      - Zanzibar Urban/West
+    - Togo:
+      - Centrale
+      - Kara
+      - Maritime
+      - Plateaux
+      - Savanes
+    - Tunisia:
+      - Ariana
+      - Béja
+      - Ben Arous
+      - Bizerte
+      - Gabès
+      - Gafsa
+      - Jendouba
+      - Kairouan
+      - Kasserine
+      - Kebili
+      - Kef
+      - Mahdia
+      - Manouba
+      - Medenine
+      - Monastir
+      - Nabeul
+      - Sfax
+      - Sidi Bouzid
+      - Siliana
+      - Sousse
+      - Tataouine
+      - Tozeur
+      - Tunis
+      - Zaghouan
+    - Uganda:
+      - Buganda
+      - Bukedi
+      - Bunyoro
+      - Busoga
+      - Eastern
+      - Karamoja
+      - Lango
+      - Northern
+      - Rwenzori
+      - Teso
+      - West Nile
+      - Western
+    - Zambia:
+      - Central
+      - Copperbelt
+      - Eastern
+      - Luapula
+      - Lusaka
+      - Muchinga
+      - Northern
+      - North-Western
+      - Southern
+      - Western
+    - Zimbabwe:
+      - Bulawayo
+      - Harare
+      - Manicaland
+      - Mashonaland Central
+      - Mashonaland East
+      - Mashonaland West
+      - Masvingo
+      - Matabeleland North
+      - Matabeleland South
+      - Midlands
+  - Antarctica
+  - Asia
+  - Australia
+  - Europe
+  - North America
+  - South America
+  - Antarctic Ocean
+  - Atlantic Ocean
+  - Arctic Ocean
+  - Indian Ocean
+  - Pacific Ocean
+concept:
+technology:
+event:
+creature:
+object:
+structure:

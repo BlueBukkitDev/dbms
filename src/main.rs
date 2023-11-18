@@ -1,7 +1,9 @@
 use std::fs;
 use crate::help_msg::*;
+use crate::cmd_db::*;
 
 mod help_msg;
+mod cmd_db;
 
 fn main(){
     send_base_help_msg();
@@ -29,7 +31,7 @@ fn process_command(cmd: &str, args: &[&str]) -> bool {
     }else if cmd == "help" {
         process_help(&args);
     }else if cmd == "db" {
-
+        process_db(&args);
     }else if cmd == "find" {
 
     }else if cmd == "read" {
