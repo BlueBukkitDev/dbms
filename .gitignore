@@ -1,1 +1,12 @@
-/target
+# Ignore all log files
+*.log
+
+#ignore temp files
+temp/
+
+# But track this specific file
+
+
+# Ignore specific directory
+db/
+
