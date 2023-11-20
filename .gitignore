@@ -4,6 +4,8 @@
 #ignore temp files
 temp/
 
+/target
+
 # But track this specific file
 
 
