@@ -34,14 +34,20 @@ pub struct API {
 }
 
 impl API {
+    /**
+     */
     pub fn new(&self) -> API {
         API {
             session: Session::new()
         }
     }
+    /**
+    Takes in a command and an array of subcommands. Redirects to other functions depending on the series. 
 
-    pub fn run_command(cmd: &str, args:&[&str]) {
-        process_command(cmd, args);
+    Returns true if the program should close. 
+    */
+    pub fn run_command(cmd: &str, args:&[&str]) -> bool {
+        process_command(cmd, args)
     }
 
     pub fn select_db (&mut self, name: &str) {
