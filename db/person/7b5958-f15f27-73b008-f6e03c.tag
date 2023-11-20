@@ -1,5 +1,0 @@
-male
-bald{
-	shaved
-	cancer
-}
