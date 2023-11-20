@@ -901,8 +901,8 @@ location: # check this out https://www.back4app.com/database/back4app/list-of-al
       - Matabeleland South
       - Midlands
   - Antarctica
-  - Asia
-    - Afghanistan
+  - Asia:
+    - Afghanistan:
       - Badakhshan
       - Badghis
       - Baghlan
@@ -937,7 +937,7 @@ location: # check this out https://www.back4app.com/database/back4app/list-of-al
       - Urozgan
       - Wardak
       - Zabul
-    - Armenia
+    - Armenia:
       - Aragatsotn
       - Ararat
       - Armavir
@@ -949,7 +949,7 @@ location: # check this out https://www.back4app.com/database/back4app/list-of-al
       - Tavush
       - Vayots Dzor
       - Yerevan
-    - Azerbaijan
+    - Azerbaijan:
       - Absheron
       - Agdam
       - Agdash
@@ -966,13 +966,13 @@ location: # check this out https://www.back4app.com/database/back4app/list-of-al
       - Gadabay
       - Ganja
       - Goranboy
-    - Bahrain
+    - Bahrain:
       - Capital Governorate
       - Central Governorate
       - Muharraq Governorate
       - Northern Governorate
       - Southern Governorate
-    - Bangladesh
+    - Bangladesh:
       - Barisal
       - Chittagong
       - Dhaka
@@ -981,7 +981,7 @@ location: # check this out https://www.back4app.com/database/back4app/list-of-al
       - Rajshahi
       - Rangpur
       - Sylhet
-    - Bhutan
+    - Bhutan:
       - Bumthang
       - Chukha
       - Dagana
@@ -1002,12 +1002,12 @@ location: # check this out https://www.back4app.com/database/back4app/list-of-al
       - Tsirang
       - Wangdue Phodrang
       - Zhemgang
-    - Brunei
+    - Brunei:
       - Belait
       - Brunei-Muara
       - Temburong
       - Tutong
-    - Cambodia
+    - Cambodia:
       - Banteay Meanchey
       - Battambang
       - Kampong Cham
@@ -1033,7 +1033,7 @@ location: # check this out https://www.back4app.com/database/back4app/list-of-al
       - Svay Rieng
       - Takéo
       - Tboung Khmum
-    - China
+    - China:
       - Anhui
       - Beijing
       - Chongqing
@@ -1068,14 +1068,14 @@ location: # check this out https://www.back4app.com/database/back4app/list-of-al
       - Xinjiang
       - Yunnan
       - Zhejiang
-    - Cyprus
+    - Cyprus:
       - Famagusta
       - Kyrenia
       - Larnaca
       - Limassol
       - Nicosia
       - Paphos
-    - Georgia
+    - Georgia:
       - Abkhazia
       - Adjara
       - Guria
@@ -1088,7 +1088,7 @@ location: # check this out https://www.back4app.com/database/back4app/list-of-al
       - Samtskhe-Javakheti
       - Shida Kartli
       - Tbilisi
-    - India
+    - India:
       - Andaman and Nicobar Islands
       - Andhra Pradesh
       - Arunachal Pradesh
@@ -1125,7 +1125,7 @@ location: # check this out https://www.back4app.com/database/back4app/list-of-al
       - Uttar Pradesh
       - Uttarakhand
       - West Bengal
-    - Indonesia
+    - Indonesia:
       - Aceh
       - Bali
       - Bangka Belitung Islands
@@ -1160,7 +1160,7 @@ location: # check this out https://www.back4app.com/database/back4app/list-of-al
       - West Sulawesi
       - West Sumatra
       - Yogyakarta
-    - Iran
+    - Iran:
       - Alborz
       - Ardabil
       - Bushehr
@@ -1192,7 +1192,7 @@ location: # check this out https://www.back4app.com/database/back4app/list-of-al
       - West Azerbaijan
       - Yazd
       - Zanjan
-    - Iraq
+    - Iraq:
       - Al Anbar
       - Al Muthanna
       - Al-Qādisiyyah
@@ -1211,14 +1211,14 @@ location: # check this out https://www.back4app.com/database/back4app/list-of-al
       - Nineveh
       - Saladin
       - Sulaymaniyah
-    - Israel
+    - Israel:
       - Central District
       - Haifa District
       - Jerusalem District
       - Northern District
       - Southern District
       - Tel Aviv District
-    - Japan
+    - Japan:
       - Aichi
       - Akita
       - Aomori
@@ -1266,7 +1266,7 @@ location: # check this out https://www.back4app.com/database/back4app/list-of-al
       - Yamagata
       - Yamaguchi
       - Yamanashi
-    - Jordan
+    - Jordan:
       - Ajloun
       - Amman
       - Aqaba
@@ -1279,7 +1279,7 @@ location: # check this out https://www.back4app.com/database/back4app/list-of-al
       - Mafraq
       - Tafilah
       - Zarqa
-    - Kazakhstan
+    - Kazakhstan:
       - Akmola
       - Aktobe
       - Almaty
@@ -1297,14 +1297,14 @@ location: # check this out https://www.back4app.com/database/back4app/list-of-al
       - Pavlodar
       - Turkistan
       - West Kazakhstan
-    - Kuwait
+    - Kuwait:
       - Al Ahmadi
       - Al Farwaniyah
       - Al Jahra
       - Capital
       - Hawalli
       - Mubarak Al-Kabeer
-    - Kyrgyzstan
+    - Kyrgyzstan:
       - Batken
       - Bishkek
       - Chuy
@@ -1313,7 +1313,7 @@ location: # check this out https://www.back4app.com/database/back4app/list-of-al
       - Naryn
       - Osh
       - Talas
-    - Laos
+    - Laos:
       - Attapeu
       - Bokeo
       - Bolikhamsai
@@ -1332,7 +1332,7 @@ location: # check this out https://www.back4app.com/database/back4app/list-of-al
       - Xaisomboun
       - Xaisomboun
       - Xiangkhouang
-    - Lebanon
+    - Lebanon:
       - Akkar
       - Baalbek-Hermel
       - Beqaa
@@ -1341,7 +1341,7 @@ location: # check this out https://www.back4app.com/database/back4app/list-of-al
       - Nabatieh
       - North Governorate
       - South Governorate
-    - Malaysia
+    - Malaysia:
       - Federal Territory of Kuala Lumpur
       - Federal Territory of Labuan
       - Federal Territory of Putrajaya
@@ -1358,7 +1358,7 @@ location: # check this out https://www.back4app.com/database/back4app/list-of-al
       - Sarawak
       - Selangor
       - Terengganu
-    - Maldives
+    - Maldives:
       - Alif Alif
       - Alif Dhaal
       - Baa
@@ -1380,7 +1380,7 @@ location: # check this out https://www.back4app.com/database/back4app/list-of-al
       - Shaviyani
       - Thaa
       - Vaavu
-    - Mongolia
+    - Mongolia:
       - Arkhangai
       - Bayan-Ölgii
       - Bayankhongor
@@ -1403,7 +1403,7 @@ location: # check this out https://www.back4app.com/database/back4app/list-of-al
       - Ulaanbaatar
       - Uvs
       - Zavkhan
-    - Myanmar (Burma)
+    - Myanmar (Burma):
       - Ayeyarwady
       - Bago
       - Chin
@@ -1419,7 +1419,7 @@ location: # check this out https://www.back4app.com/database/back4app/list-of-al
       - Shan
       - Tanintharyi
       - Yangon
-    - Nepal
+    - Nepal:
       - Bagmati
       - Bheri
       - Dhawalagiri
@@ -1434,7 +1434,7 @@ location: # check this out https://www.back4app.com/database/back4app/list-of-al
       - Rapti
       - Sagarmatha
       - Seti
-    - North Korea
+    - North Korea:
       - Chagang
       - North Hamgyong
       - South Hamgyong
@@ -1446,7 +1446,7 @@ location: # check this out https://www.back4app.com/database/back4app/list-of-al
       - Ryanggang
       - Rason
       - Pyongyang
-    - Oman
+    - Oman:
       - Ad Dakhiliyah
       - Ad Dhahirah
       - Al Batinah North
@@ -1458,13 +1458,13 @@ location: # check this out https://www.back4app.com/database/back4app/list-of-al
       - Dhofar
       - Musandam
       - Muscat
-    - Pakistan
+    - Pakistan:
       - Azad Kashmir
       - Balochistan
       - Gilgit-Baltistan
       - Islamabad Capital Territory
       - Khyber Pakhtunkhwa
-    - Philippines
+    - Philippines:
       - Abra
       - Agusan del Norte
       - Agusan del Sur
@@ -1517,7 +1517,7 @@ location: # check this out https://www.back4app.com/database/back4app/list-of-al
       - Misamis Occidental
       - Misamis Oriental
       - Mountain Province
-    - Qatar
+    - Qatar:
       - Ad Dawhah
       - Al Daayen
       - Al Khor
@@ -1525,7 +1525,7 @@ location: # check this out https://www.back4app.com/database/back4app/list-of-al
       - Ar Rayyan
       - Ash Shamal
       - Umm Salal
-    - Russia
+    - Russia:
       - Altai Krai
       - Altai Republic
       - Amur Oblast
@@ -1584,26 +1584,26 @@ location: # check this out https://www.back4app.com/database/back4app/list-of-al
       - Pskov Oblast
       - Rostov Oblast
       - Ryazan
-    - Saudi Arabia
+    - Saudi Arabia:
       - Al Bahah
       - Al Jawf
       - Al Madinah
       - Al Qassim
       - Ar Riyad
       - Ash Sharqiyah
-      - 'Asir
-      - Ha'il
+      - \'Asir
+      - Ha\'il
       - Jazan
       - Makkah
       - Najran
       - Tabuk
-    - Singapore
+    - Singapore:
       - Central Singapore
       - North East
       - North West
       - South East
       - South West
-    - South Korea
+    - South Korea:
       - Busan
       - Chungcheongbuk
       - Chungcheongnam
@@ -1621,7 +1621,7 @@ location: # check this out https://www.back4app.com/database/back4app/list-of-al
       - Sejong
       - Seoul
       - Ulsan
-    - Sri Lanka
+    - Sri Lanka:
       - Central Province
       - Eastern Province
       - North Central Province
@@ -1631,7 +1631,7 @@ location: # check this out https://www.back4app.com/database/back4app/list-of-al
       - Southern Province
       - Uva Province
       - Western Province
-    - Syria
+    - Syria:
       - Al-Hasakah
       - Al-Raqqah
       - Aleppo
@@ -1646,7 +1646,7 @@ location: # check this out https://www.back4app.com/database/back4app/list-of-al
       - Quneitra
       - Rif Dimashq
       - Tartus
-    - Taiwan
+    - Taiwan:
       - Changhua
       - Chiayi
       - Hsinchu
@@ -1667,12 +1667,12 @@ location: # check this out https://www.back4app.com/database/back4app/list-of-al
       - Taoyuan
       - Yilan
       - Yunlin
-    - Tajikistan
+    - Tajikistan:
       - Districts of Republican Subordination
       - Gorno-Badakhshan Autonomous Province
       - Khatlon
       - Sughd
-    - Thailand
+    - Thailand:
       - Amnat Charoen
       - Ang Thong
       - Bangkok
@@ -1750,7 +1750,7 @@ location: # check this out https://www.back4app.com/database/back4app/list-of-al
       - Uttaradit
       - Yala
       - Yasothon
-    - Timor-Leste
+    - Timor-Leste:
       - Aileu
       - Ainaro
       - Baucau
@@ -1760,7 +1760,7 @@ location: # check this out https://www.back4app.com/database/back4app/list-of-al
       - Ermera
       - Lautem
       - Liquiçá
-    - Turkey
+    - Turkey:
       - Adana
       - Adıyaman
       - Afyonkarahisar
@@ -1835,14 +1835,14 @@ location: # check this out https://www.back4app.com/database/back4app/list-of-al
       - Sivas
       - Tekirdağ
       - Tokat
-    - Turkmenistan
+    - Turkmenistan:
       - Ahal
       - Ashgabat
       - Balkan
       - Daşoguz
       - Lebap
       - Mary
-    - United Arab Emirates
+    - United Arab Emirates:
       - Abu Dhabi
       - Ajman
       - Dubai
@@ -1850,7 +1850,7 @@ location: # check this out https://www.back4app.com/database/back4app/list-of-al
       - Ras Al Khaimah
       - Sharjah
       - Umm Al Quwain
-    - Uzbekistan
+    - Uzbekistan:
       - Andijan
       - Bukhara
       - Fergana
@@ -1864,7 +1864,7 @@ location: # check this out https://www.back4app.com/database/back4app/list-of-al
       - Tashkent
       - Tashkent Region
       - Xorazm
-    - Vietnam
+    - Vietnam:
       - An Giang
       - Bà Rịa-Vũng Tàu
       - Bắc Giang
@@ -1927,9 +1927,9 @@ location: # check this out https://www.back4app.com/database/back4app/list-of-al
       - Vĩnh Long
       - Vĩnh Phúc
       - Yên Bái
-    - Yemen
-      - 'Adan
-      - 'Amran
+    - Yemen:
+      - \'Adan
+      - \'Amran
       - Abyan
       - Al Bayda'
       - Al Hudaydah
@@ -1947,7 +1947,7 @@ location: # check this out https://www.back4app.com/database/back4app/list-of-al
       - Sana'a
       - Shabwah
       - Ta'izz
-  - Australia
+  - Australia:
     - Australian Capital Territory
     - New South Wales
     - Northern Territory
@@ -1956,8 +1956,8 @@ location: # check this out https://www.back4app.com/database/back4app/list-of-al
     - Tasmania
     - Victoria
     - Western Australia
-  - Europe
-    - Albania
+  - Europe:
+    - Albania:
       - Berat
       - Dibër
       - Durrës
@@ -1970,7 +1970,7 @@ location: # check this out https://www.back4app.com/database/back4app/list-of-al
       - Shkodër
       - Tirana
       - Vlorë
-    - Andorra
+    - Andorra:
       - Andorra la Vella
       - Canillo
       - Encamp
@@ -1978,7 +1978,7 @@ location: # check this out https://www.back4app.com/database/back4app/list-of-al
       - La Massana
       - Ordino
       - Sant Julià de Lòria
-    - Austria
+    - Austria:
       - Burgenland
       - Carinthia
       - Lower Austria

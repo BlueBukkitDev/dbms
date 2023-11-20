@@ -1,5 +1,4 @@
-use crate::help_msg::send_unknown_cmd;
-
+use crate::help_msg::*;
 
 pub fn process_db(args:&[&str]) {
     if args.len() == 0 {
@@ -37,18 +36,18 @@ pub fn process_db(args:&[&str]) {
     }
 }
 
-fn execute_create_cmd(args: &[&str]) {
+fn execute_create_cmd(_args: &[&str]) {
     
 }
 
-fn execute_create_custom_cmd(args: &[&str]) {
+fn execute_create_custom_cmd(_args: &[&str]) {
 
 }
 
-fn execute_delete_cmd(args: &[&str]) {
+fn execute_delete_cmd(_args: &[&str]) {
 
 }
 
-fn execute_select_cmd(args: &[&str]) {
+fn execute_select_cmd(_args: &[&str]) {
 
 }

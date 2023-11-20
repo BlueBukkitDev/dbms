@@ -56,6 +56,9 @@ pub fn send_base_help_msg() {
     println!("{} - used to interact with a database and it's properties", "db".truecolor(Y.0, Y.1, Y.2));
     println!("{} - used to search for an entry in a selected database", "get".truecolor(Y.0, Y.1, Y.2));
     println!("{} - used to input a new entry into a selected database", "put".truecolor(Y.0, Y.1, Y.2));
+    println!("{} - used to find tags or entry IDs", "find".truecolor(Y.0, Y.1, Y.2));
+    println!("{} - used to read property data from an entry", "read".truecolor(Y.0, Y.1, Y.2));
+    println!("{} - used to write property data to an entry", "write".truecolor(Y.0, Y.1, Y.2));
 }
 
 fn send_db_help_msg() {
