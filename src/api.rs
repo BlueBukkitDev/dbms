@@ -67,7 +67,7 @@ impl API {
  Returns true if the program should close. 
  */
 fn process_command(cmd: &str, args: &[&str]) -> bool {
-    if cmd == "stop" || cmd == "end" || cmd == "quit" || cmd == "close" || cmd == "die" {
+    if cmd == "stop" || cmd == "quit" || cmd == "close" {
         return true;
     }else if cmd == "help" {
         process_help(&args);
@@ -80,7 +80,11 @@ fn process_command(cmd: &str, args: &[&str]) -> bool {
     }else if cmd == "get" {
         
     }else if cmd == "write" {
-        create_folder(args[0]);
+        if args.len() == 1 {
+            create_folder(args[0]);
+        }else {
+            //send wrong args msg
+        }
     }else if cmd == "put" {
         
     }else {
