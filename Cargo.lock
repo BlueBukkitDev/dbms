@@ -20,13 +20,6 @@ dependencies = [
 ]
 
 [[package]]
-name = "dbms"
-version = "0.0.1"
-dependencies = [
- "colored",
-]
-
-[[package]]
 name = "errno"
 version = "0.3.7"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -34,6 +27,13 @@ checksum = "f258a7194e7f7c2a7837a8913aeab7fd8c383457034fa20ce4dd3dcb813e8eb8"
 dependencies = [
  "libc",
  "windows-sys",
+]
+
+[[package]]
+name = "ezql"
+version = "0.0.1"
+dependencies = [
+ "colored",
 ]
 
 [[package]]

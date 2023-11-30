@@ -81,7 +81,7 @@ fn process_command(cmd: &str, args: &[&str]) -> bool {
         
     }else if cmd == "write" {
         if args.len() == 1 {
-            create_folder(args[0]);
+            create_folder(&args[0].to_string());
         }else {
             //send wrong args msg
         }
@@ -95,8 +95,16 @@ fn process_command(cmd: &str, args: &[&str]) -> bool {
     return false;
 }
 
+pub fn setup_std_db(name:&str, path:&str) {
+    let new_path = format!("{}/{}", path, name);
+    create_folder(&new_path);
+    create_folder(&format!("{}/Person", new_path));
+    create_folder(&format!("{}/Location", new_path));
+    create_folder(&format!("{}/Event", new_path));
+}
+
 //This fn is here for future use
-pub fn create_folder(path: &str) {
+pub fn create_folder(path: &String) {
     match fs::create_dir(path) {
         Ok(_) => println!("Directory created successfully"),
         Err(e) => println!("Error creating directory: {:?}", e),
