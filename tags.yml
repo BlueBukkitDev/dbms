@@ -2037,8 +2037,8 @@ location: # check this out https://www.back4app.com/database/back4app/list-of-al
       - Razgrad Province
       - Ruse Province
       - Shumen Province
-  - North America
-    - Antigua and Barbuda
+  - North America:
+    - Antigua and Barbuda:
       - Barbuda
       - Redonda
       - Saint George
@@ -2047,7 +2047,7 @@ location: # check this out https://www.back4app.com/database/back4app/list-of-al
       - Saint Paul
       - Saint Peter
       - Saint Philip
-    - Bahamas
+    - Bahamas:
       - Acklins
       - Berry Islands
       - Bimini
@@ -2079,7 +2079,7 @@ location: # check this out https://www.back4app.com/database/back4app/list-of-al
       - South Eleuthera
       - Spanish Wells
       - West Grand Bahama
-    - Barbados
+    - Barbados:
       - Christ Church
       - Saint Andrew
       - Saint George
@@ -2091,14 +2091,14 @@ location: # check this out https://www.back4app.com/database/back4app/list-of-al
       - Saint Peter
       - Saint Philip
       - Saint Thomas
-    - Belize
+    - Belize:
       - Belize
       - Cayo
       - Corozal
       - Orange Walk
       - Stann Creek
       - Toledo
-    - Canada
+    - Canada:
       - Alberta
       - British Columbia
       - Manitoba
@@ -2112,7 +2112,7 @@ location: # check this out https://www.back4app.com/database/back4app/list-of-al
       - Quebec
       - Saskatchewan
       - Yukon
-    - Costa Rica
+    - Costa Rica:
       - Alajuela
       - Cartago
       - Guanacaste
@@ -2120,7 +2120,7 @@ location: # check this out https://www.back4app.com/database/back4app/list-of-al
       - Limón
       - Puntarenas
       - San José
-    - Cuba
+    - Cuba:
       - Artemisa
       - Camagüey
       - Ciego de Ávila
@@ -2136,7 +2136,7 @@ location: # check this out https://www.back4app.com/database/back4app/list-of-al
       - Sancti Spíritus
       - Santiago de Cuba
       - Villa Clara
-    - Dominica
+    - Dominica:
       - Saint Andrew
       - Saint David
       - Saint George
@@ -2147,7 +2147,7 @@ location: # check this out https://www.back4app.com/database/back4app/list-of-al
       - Saint Patrick
       - Saint Paul
       - Saint Peter
-    - Dominican Republic
+    - Dominican Republic:
       - Azua
       - Baoruco
       - Barahona
@@ -2180,7 +2180,7 @@ location: # check this out https://www.back4app.com/database/back4app/list-of-al
       - Santiago Rodríguez
       - Santo Domingo
       - Valverde
-    - El Salvador
+    - El Salvador:
       - Ahuachapán
       - Cabañas
       - Chalatenango
@@ -2195,7 +2195,7 @@ location: # check this out https://www.back4app.com/database/back4app/list-of-al
       - Santa Ana
       - Sonsonate
       - Usulután
-    - Grenada
+    - Grenada:
       - Carriacou and Petite Martinique
       - Saint Andrew
       - Saint David
@@ -2203,7 +2203,7 @@ location: # check this out https://www.back4app.com/database/back4app/list-of-al
       - Saint John
       - Saint Mark
       - Saint Patrick
-    - Guatemala
+    - Guatemala:
       - Alta Verapaz
       - Baja Verapaz
       - Chimaltenango
@@ -2226,7 +2226,7 @@ location: # check this out https://www.back4app.com/database/back4app/list-of-al
       - Suchitepéquez
       - Totonicapán
       - Zacapa
-    - Haiti
+    - Haiti:
       - Artibonite
       - Centre
       - Grand'Anse
@@ -2237,7 +2237,7 @@ location: # check this out https://www.back4app.com/database/back4app/list-of-al
       - Ouest
       - Sud
       - Sud-Est
-    - Honduras
+    - Honduras:
       - Atlántida
       - Bay Islands
       - Choluteca
@@ -2256,7 +2256,7 @@ location: # check this out https://www.back4app.com/database/back4app/list-of-al
       - Santa Bárbara
       - Valle
       - Yoro
-    - Jamaica
+    - Jamaica:
       - Clarendon
       - Hanover
       - Kingston
@@ -5313,7 +5313,7 @@ location: # check this out https://www.back4app.com/database/back4app/list-of-al
         - Uinta County
         - Washakie County
         - Weston County
-  - South America
+  - South America:
     - Argentina
       - Buenos Aires
       - Catamarca
