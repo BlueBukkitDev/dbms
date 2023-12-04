@@ -1,37 +1,23 @@
-pub enum roots {
-    EXIT,
-    HELP, 
-    DB, 
-    FIND,
-    READ,
-    GET,
-    WRITE,
-    PUT
+pub enum Roots {
+    EXIT, HELP, DB, FIND, READ, GET, WRITE, PUT
 }
 
-pub enum help_subs {
-    EXIT, 
-    HELP,
-    DB,
-    FIND,
-    READ,
-    GET,
-    WRITE,
-    PUT
+pub enum HelpSubs {
+    EXIT, HELP, DB, FIND, READ, GET, WRITE, PUT
 }
 
-pub enum help_db_subs {
-    CREATE,
-    DELETE,
-    SELECT
+pub enum HelpDbSubs {
+    CREATE, DELETE, SELECT
 }
 
-pub enum help_find_subs {
-    NUM,
-    ALL
+pub enum HelpFindSubs {
+    NUM, ALL
 }
 
-pub enum help_read_subs {
-
+pub enum HelpReadSubs {
+    INDEX, PROPERTY, ALL
 }
-//read <property>
+
+pub enum HelpWriteSubs {
+    PROPERTY
+}
