@@ -76,7 +76,7 @@ impl API {
  Returns true if the program should close. 
  */
 fn process_command(cmd: &str, args: &[&str]) -> bool {
-    if cmd == "stop" || cmd == "quit" || cmd == "close" {
+    if cmd == "stop" || cmd == "quit" || cmd == "close" {//exit is an excellent escape cmd
         return true;
     }else if cmd == "help" {
         process_help(&args);

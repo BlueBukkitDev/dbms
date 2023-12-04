@@ -73,7 +73,7 @@ fn _send_find_help_msg() {
     println!("find {} - searches for up to a specified number of entries matching the query", "<number>".truecolor(Y.0, Y.1, Y.2));
     println!("find {} - searches for all entries matching the query", "*".truecolor(Y.0, Y.1, Y.2));
     println!("find 1 {} - initiates a tag list", "of".truecolor(Y.0, Y.1, Y.2));
-    println!("find 1 of {} - the tag list to search for", "<tag>".truecolor(Y.0, Y.1, Y.2));
+    println!("find 1 of {} - the tag list to search for", "<tag>".truecolor(Y.0, Y.1, Y.2));//I think now that of and where are arbitrary and useless. Fluff. 
     println!("{}", "Examples".green().bold());
     println!("{}", "find all of <this is unfinished>".bright_magenta());
 }
