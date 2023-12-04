@@ -14,13 +14,21 @@ use crate::cmd_db::*;
  Returns true if the program should close. 
  */
 pub fn process_command(cmd: &str, args: &[&str]) -> bool {
-    if cmd == "stop" || cmd == "quit" || cmd == "close" {//exit is an excellent escape cmd
-        return true;
-    }else if cmd == "help" {
-        process_help(&args);
-    }else if cmd == "db" {
-        process_db(&args);
-    }else if cmd == "find" {
+    match cmd {
+        "exit" => return true,
+        "help" => {process_help(&args); return false},
+        "db" => {process_db(&args); return false},
+        "find" => return false,
+        "read" => return false,
+        "get" => return false,
+        "write" => return false,
+        "put" => return false,
+        _ => {
+            let options = ["exit", "help", "db", "find", "read", "get", "write", "put"];
+            send_unknown_cmd(cmd, args, &options); 
+            return false},
+    }
+    /*else if cmd == "find" {
 
     }else if cmd == "read" {
 
@@ -41,7 +49,7 @@ pub fn process_command(cmd: &str, args: &[&str]) -> bool {
         send_unknown_cmd(cmd, args, &options);
     }
 
-    return false;
+    return false;*/
 }
 
 fn get_root() -> Result<PathBuf, std::io::Error> {

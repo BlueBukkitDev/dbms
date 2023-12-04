@@ -74,11 +74,11 @@ impl API {
         self.session.select_db(name)
     }
 
-    pub fn create_db (&mut self, name: &str) {
+    pub fn create_db (&mut self, _name: &str) {
 
     }
 
-    pub fn create_db_at_path (&mut self, name: &str, path: String) {
+    pub fn create_db_at_path (&mut self, _name: &str, _path: String) {
 
     }
 }

@@ -26,3 +26,8 @@ db create Materials -c will create a database called Materials without any defau
 
 tag create <primary/secondary/etc/new_tag_name> will create a new quaternary tag under the tertiary tag etc, under secondary, under primary
 tag delete <tag_name> will delete an existing tag. New items will no longer be able to use this tag, but old items can still be found by it
+
+db create | delete | select
+find ?qty | * //numerical values
+read ?index | <property> | *
+write <property> <value>
