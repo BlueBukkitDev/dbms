@@ -2,8 +2,8 @@ use std::env;
 use std::path::Path;
 use std::path::PathBuf;
 use std::fs;
-use crate::help_msg::*;
-use crate::cmd_db::*;
+use crate::parsing::help_msg::*;
+use crate::parsing::cmd_db::*;
 
 //const tags: &[u8] = include_bytes!("tags.yml");//Need to be able to write existing files into the program folder on startup; save as arrays of bytes, compile, when executing, will
 //write to the file at the desired destination. EZPZ. 

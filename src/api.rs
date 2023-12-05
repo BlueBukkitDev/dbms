@@ -1,6 +1,6 @@
 //This file will contain structs and impls for any operation needed. //zettlekasten query language, ZQL
 
-use crate::engine::*;
+use crate::parsing::entry_parse::*;
 
 /**
  Session's purpose is to store relevant persistent data. For now this only stores the selected database, but may be expanded to 
