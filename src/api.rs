@@ -62,11 +62,9 @@ impl API {
         }
     }
     /**
-    Takes in a command and an array of subcommands. Redirects to other functions depending on the series. 
-
-    Returns true if the program should close. 
+    Takes in a command and an array of subcommands. Redirects to other functions depending on the series.
     */
-    pub fn run_command(cmd: &str, args:&[&str]) -> bool {
+    pub fn run_command(cmd: &str, args:&[&str]) {
         process_command(cmd, args)
     }
 

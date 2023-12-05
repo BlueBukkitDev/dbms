@@ -7,58 +7,57 @@ const C: (u8, u8, u8) = (0, 198, 254);
  Processes help commands based on user input. 
  */
 pub fn process_help(args: &[&str]) {
-    if args.len() == 0 {
-        send_base_help_msg();
-    }else if args.len() == 1 {
-        process_one(args);
-    }else if args.len() == 2 {
-        process_two(args);
+    match args.len() {
+        0 => send_base_help_msg(),
+        1 => process_one(args),
+        2 => process_two(args),
+        _ => return,
     }
 }
 
 fn process_one(args: &[&str]) {
-    if args[0].eq_ignore_ascii_case("db") {
-        send_db_help_msg();
-    }else if args[0].eq_ignore_ascii_case("find") {
-
-    }else if args[0].eq_ignore_ascii_case("read") {
-
-    }else if args[0].eq_ignore_ascii_case("get") {
-
-    }else if args[0].eq_ignore_ascii_case("write") {
-
-    }else if args[0].eq_ignore_ascii_case("put") {
-
-    }else{
-        let options = ["db", "find", "read", "get", "write", "put"];
-        send_unknown_cmd("help", args, &options);
+    match args[0] {
+        "db" => send_db_help_msg(),
+        "find" => return,
+        "read" => return,
+        "get" => return,
+        "write" => return,
+        "put" => return,
+        _ => {
+            let options = ["db", "find", "read", "get", "write", "put"];
+            send_unknown_cmd("help", args, &options);}
     }
 }
 
 fn process_two(args: &[&str]) {
-    if args[0].to_lowercase() == "db" {
-        if args[1].eq_ignore_ascii_case("select") {
-            send_db_select_help_msg();
-        }else if args[1].eq_ignore_ascii_case("create") {
-            send_db_create_help_msg();
-        }else if args[1].eq_ignore_ascii_case("delete") || args[1].eq_ignore_ascii_case("destroy") {
-            send_db_delete_help_msg();
-        }else {
+    match args[0] {
+        "select" => send_db_select_help_msg(),
+        "create" => send_db_create_help_msg(),
+        "delete" | "destroy"=> send_db_delete_help_msg(),
+        _ => {
             let options = ["select", "create", "delete"];
-            send_unknown_cmd("help", args, &options);
-        }
+            send_unknown_cmd("help", args, &options);}
     }
 }
 ////////////////////////////////////////////////////0-1 args
 pub fn send_base_help_msg() {
-    println!("DBMS {} help", "command".truecolor(C.0, C.1, C.2));
-    println!("{} - used to provide help for a given command", "help".truecolor(Y.0, Y.1, Y.2));
-    println!("{} - used to interact with a database and it's properties", "db".truecolor(Y.0, Y.1, Y.2));
-    println!("{} - used to search for an entry in a selected database", "get".truecolor(Y.0, Y.1, Y.2));
-    println!("{} - used to input a new entry into a selected database", "put".truecolor(Y.0, Y.1, Y.2));
-    println!("{} - used to find tags or entry IDs", "find".truecolor(Y.0, Y.1, Y.2));
-    println!("{} - used to read property data from an entry", "read".truecolor(Y.0, Y.1, Y.2));
-    println!("{} - used to write property data to an entry", "write".truecolor(Y.0, Y.1, Y.2));
+    println!("DBMS {} help \n
+    {} - used to provide help for a given command\n
+    {} - used to interact with a database and it's properties\n
+    {} - used to search for an entry in a selected database\n
+    {} - used to input a new entry into a selected database\n
+    {} - used to find tags or entry IDs\n
+    {} - used to read property data from an entry\n
+    {} - used to write property data to an entry", 
+    "command".truecolor(C.0, C.1, C.2), 
+    "help".truecolor(Y.0, Y.1, Y.2),
+    "db".truecolor(Y.0, Y.1, Y.2),
+    "get".truecolor(Y.0, Y.1, Y.2),
+    "put".truecolor(Y.0, Y.1, Y.2),
+    "find".truecolor(Y.0, Y.1, Y.2),
+    "read".truecolor(Y.0, Y.1, Y.2),
+    "write".truecolor(Y.0, Y.1, Y.2)
+    );
 }
 
 fn send_db_help_msg() {

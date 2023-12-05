@@ -11,29 +11,21 @@ use crate::cmd_db::*;
 /**
  Takes in a command and an array of subcommands. Redirects to other functions depending on the series. 
 
- Returns true if the program should close. 
  */
-pub fn process_command(cmd: &str, args: &[&str]) -> bool {
+pub fn process_command(cmd: &str, args: &[&str]) {
     match cmd {
-        "exit" => return true,
-        "help" => {process_help(&args); return false},
-        "db" => {process_db(&args); return false},
-        "find" => return false,
-        "read" => return false,
-        "get" => return false,
-        "write" => return false,
-        "put" => return false,
+        "help" => process_help(&args),
+        "db" => process_db(&args),
+        "find" => return,
+        "read" => return,
+        "get" => return,
+        "write" => return,
+        "put" => return,
         _ => {
-            let options = ["exit", "help", "db", "find", "read", "get", "write", "put"];
-            send_unknown_cmd(cmd, args, &options); 
-            return false},
+            let options = ["help", "db", "find", "read", "get", "write", "put"];
+            send_unknown_cmd(cmd, args, &options)},
     }
-    /*else if cmd == "find" {
-
-    }else if cmd == "read" {
-
-    }else if cmd == "get" {
-        
+    /*
     }else if cmd == "write" {
         if args.len() == 1 {
             //create_folder(&args[0].to_string());
@@ -42,13 +34,6 @@ pub fn process_command(cmd: &str, args: &[&str]) -> bool {
             setup_std_db("Rando", "C:\\Users\\be\\Desktop")
             //send wrong args msg
         }
-    }else if cmd == "put" {
-        
-    }else {
-        let options = ["stop", "help", "db", "find", "read", "get", "write", "put"];
-        send_unknown_cmd(cmd, args, &options);
-    }
-
     return false;*/
 }
 
