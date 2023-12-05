@@ -1,20 +1,21 @@
-//This file will contain structs and impls for any operation needed. //zettlekasten query language, ZQL
-
 use crate::parsing::entry_parse::*;
 
-/**
- Session's purpose is to store relevant persistent data. For now this only stores the selected database, but may be expanded to 
- include previous operations, login data, and more. 
- */
+///
+/// Session stores data related to the use and access of this library.
+/// 
+/// This relevant persistent data may include the selected database, username/password/pattern, previous commands for selecting tags,
+/// or any host of other information. For now this only includes the selected database and authorization information, which is still
+/// unimplemented. 
+///
 pub struct Session {
     selected_db : String,
     auth : Auth,
 }
 
 impl Session {
-    /**
-     Creates a new session with a null database
-     */
+    ///
+    /// Creates a new session with no stored memory.
+    ///
     pub fn new() -> Session {
         setup_program_files();
         Session {
@@ -53,10 +54,25 @@ pub struct API {
 }
 
 impl API {
-    /**
-     * Creates a new API instance from which to perform internal operations. 
-     */
-    pub fn new(&self) -> API {
+    ///
+    /// Creates a new API instance from which to perform internal operations. 
+    /// 
+    /// Creates program files at the default location (system root). 
+    ///
+    pub fn new_default(&self) -> API {
+        API {
+            session: Session::new()
+        }
+    }
+    ///
+    /// Creates a new API instance from which to perform internal operations.
+    /// 
+    /// The `path` variable is the path to the location where you want program files stored. This can be anywhere, by default it is at
+    /// system root (C:/ in Windows). These files will determine and record how this library should be used to create databases. If you
+    /// will be having multiple databases with different tags in each, simply create a new instance of this API with a different path
+    /// specific to that database. You can do this for as many databases as you wish. 
+    ///
+    pub fn new(&self, path: &str) -> API {
         API {
             session: Session::new()
         }

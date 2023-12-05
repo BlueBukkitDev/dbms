@@ -1,6 +1,8 @@
+Welcome to the official library of the Easy Zettlekasten Query Language, EZQL [pronunciation: Ezekiel]
+
 The Tags system is meant to be fully configurable, but set up by default to be non-overlapping and easily understood. 
 The `tags.yml` file lists all tags and how they will be used to set up the database. 
-!!!WARNING!!! Deleting primary tags can cause data in the db to become inaccessible. 
+!!!WARNING!!! Deleting primary tags can cause data in the db to become inaccessible. //prolly not smort
 Do not delete primary tags unless you know what you are doing. 
 
 Database names and all dbms commands are case-insensitive to prevent duplication issues. 
